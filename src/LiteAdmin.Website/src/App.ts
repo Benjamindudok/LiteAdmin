@@ -10,8 +10,8 @@ import * as MutationTypes from '@/store/MutationTypes';
 @Component
 export default class App extends FormBase
 {
+    public color: string = '';
     public showSnackbar: boolean = false;
-
     public showMenu: boolean = true;
 
     public created(): void

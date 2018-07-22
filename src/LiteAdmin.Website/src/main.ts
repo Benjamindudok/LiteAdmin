@@ -27,6 +27,10 @@ import {
 } from 'vue-material/dist/components';
 import 'vue-material/dist/vue-material.min.css';
 
+import Element from 'element-ui';
+
+Vue.use(Element);
+
 Vue.config.productionTip = false;
 
 Vue.filter('formatDate', formatDate);

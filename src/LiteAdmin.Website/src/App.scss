@@ -2,6 +2,9 @@
 @include md-register-theme("default", (primary: md-get-palette-color(blue, 900), accent: md-get-palette-color(bluegrey, 700)));
 @import "~vue-material/dist/theme/all"; // Apply the theme
 
+$--font-path: '~element-ui/packages/theme-chalk/src/fonts';
+@import "~element-ui/packages/theme-chalk/src/index";
+
 .md-app {
     min-height: 100vh;
 
